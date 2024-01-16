@@ -36,7 +36,7 @@ const StyledMenu = styled.nav`
     /* & -> referência ao
       seletor pai (a) */
     &:hover {
-      background-color: pink;
+      background-color: darkorange;
       color: black;
       transform: scale(1.05);
     }
