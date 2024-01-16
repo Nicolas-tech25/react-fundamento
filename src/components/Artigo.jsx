@@ -5,7 +5,7 @@ function Artigo(props) {
   const [cor, setCor] = useState("lavender");
 
   const mudarCor = () => {
-    setCor(cor === "lavender" ? "yellow" : "lavender");
+    setCor(cor === "lavender" ? "darkorange" : "lavender");
   };
 
   const formatarPreco = (valor) => {

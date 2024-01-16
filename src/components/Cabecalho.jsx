@@ -11,12 +11,12 @@ function Cabecalho() {
   No caso do useState, usando desestruturação, criamos
   uma variável que representa o valor do state (titulo)
   e uma função responsável por atualizar o state (setTitulo)  */
-  const [titulo, setTitulo] = useState("Olá React! 😎");
+  const [titulo, setTitulo] = useState("مرحبا بكم في كابوسي! 🎃");
 
   const mudarTitulo = () => {
     /* Alterando o valor do state 'titulo' através
     do 'setTitulo' quando ocorre o evento de clique no h1. */
-    setTitulo("Oie! 🤩");
+    setTitulo("here's johnny! 🪓");
   };
 
   return (
@@ -37,7 +37,7 @@ const StyledCabecalho = styled.header`
 
   hr {
     width: 50%;
-    background-color: pink;
+    background-color: orange;
     border: none;
     height: 4px;
     margin: 8px auto;
